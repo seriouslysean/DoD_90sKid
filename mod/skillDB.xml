@@ -1,0 +1,21 @@
+<skillDB>
+
+
+<skill name="90's Kid" id="1990" type="warrior" description="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!">
+	<art icon="skills/90skid/90skid64.png"/>
+	<loadout type="armour" subtype="Traffic Cone" always="1"/>
+	</skill>
+
+<ability name="90's Kid" icon="skills/90skid/90skid64.png" skill="1990" startSkill="1">
+   <description text="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!"/>
+   </ability>
+
+<ability name="Saturday Mornings" icon="skills/90skid/90skid64.png" skill="1990" skillname="90's Kid" level="0">
+	<description text="All those years of sitting too close to the TV really paid off, you can see further and you notice weaknesses in your enemies more easily."/>
+	<primarybuff id="3" amount="2"/> <!-- Caddishness -->
+	<secondarybuff id="18" amount="2"/> <!-- Sight Raduis -->
+	<secondarybuff id="14" amount="1"/> <!-- Mana Regen -->
+	</ability>
+
+
+</skillDB>
