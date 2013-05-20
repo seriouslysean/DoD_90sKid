@@ -1,11 +1,7 @@
 <spellDB>
 
 
-<spell name="2 Cool 4 School" type="self">
-  <description text="You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool."/>
-  <resistbuff hyperborean="-2"/>
-  <damagebuff hyperborean="2"/>
-</spell>
+<!-- Spells -->
 
 
 </spellDB>
