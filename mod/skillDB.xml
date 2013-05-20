@@ -2,19 +2,19 @@
 
 
 <skill name="90's Kid" id="1990" type="warrior" description="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!">
-	<art icon="skills/90skid/90skid64.png"/>
-	<loadout type="armour" subtype="Traffic Cone" always="1"/>
-	</skill>
+  <art icon="skills/90skid/90skid64.png"/>
+  <loadout type="armour" subtype="Traffic Cone" always="1"/>
+  </skill>
 
 <ability name="90's Kid" icon="skills/90skid/90skid64.png" skill="1990" startSkill="1">
    <description text="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!"/>
    </ability>
 
 <ability name="2 Cool 4 School" icon="skills/90skid/2cool4school64.png" skill="1990" level="0">
-	<description text="You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool."/>
-	<resistbuff hyperborean="-2"/>
+  <description text="You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool."/>
+  <resistbuff hyperborean="-2"/>
   <damagebuff hyperborean="2"/>
-	</ability>
+  </ability>
 
 
 </skillDB>
