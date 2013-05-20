@@ -1,12 +1,31 @@
 <itemDB>
 
-
-<item name="The Breakfast Club" iconFile="items/food_breakfast_club.png" level="1" type="2" artifact="1" >
-  <price amount="17"/>
-  <weapon crushing="1"/>
+<!-- Starting Weapon -->
+<item name="The Breakfast Club" iconFile="items/90skid/food_breakfast_club.png" level="1" type="2" artifact="1" >
+  <price amount="20"/>
+  <weapon crushing="2"/>
   <artifact quality="1"/>
   <description text="The breakfast club is part of any complete breakfast. The bread is also a bit stale which makes it great for bashing monsters with. Awesome!"/>
 </item>
+
+<!-- Skill: Level 2 -->
+<item name="Tube of Pogs" iconFile="items/90skid/container_tube_pogs.png">
+  <price amount="0"/>
+  <potion spell="Make Pogs"/>
+  <description text="This is your tube of Pogs. There are many like it, but this one is yours. It contains a few pogs. If you're lucky, you might even get a slammer!"/>
+  </item>
+<item name="Pog" iconFile="items/90skid/thrown_pog.png" level="0" type="5" special="1">
+  <price amount="0"/>
+  <weapon crushing="2" thrown="items/90skid/thrown_pog.png"/>
+  <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
+  <description text="This is a Pog. You can throw it, but it's made of cardboard and won't do very much damage."/>
+  </item>
+<item name="Pog Slammer" iconFile="items/90skid/thrown_pog_slammer.png" level="0" type="5" special="1">
+  <price amount="0"/>
+  <weapon crushing="3" asphyxiative="2" thrown="items/90skid/thrown_pog_slammer.png"/>
+  <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
+  <description text="This is a Pog Slammer. You can throw it and it will most certainly hurt someone since it's made of metal. How were these legal as a kid?"/>
+  </item>
 
 
 </itemDB>

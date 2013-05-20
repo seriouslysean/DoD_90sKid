@@ -20,14 +20,17 @@
 
 <!-- Skill: Level 1 -->
 <ability name="Are You Afraid of the Dark?" icon="skills/90skid/afraidofthedark64.png" skill="1990" level="1">
-  <description text="Staying up late has given you some power over the darkness... and an affinity for fire."/>
+  <description text="Staying up late has given you some power over the darkness, an affinity for fire and the power to bore your enemies to sleep through bad storytelling."/>
   <targetHitEffectBuff percentage="20" name="Afraid of the Dark" />
   <resistbuff necromantic="1" aethereal="1" />
   <secondarybuff id="18" amount="2" /> <!-- sight radius -->
   </ability>
 
 <!-- Skill: Level 2 -->
-
+<ability name="Pogs? Pogs!" icon="skills/90skid/pogspogs64.png" skill="1990" level="2">
+  <description text="Pogs! Pogs! Pogs! The wonderful collectables that are fun for all!  Sadly they are now worthless but at least they hurt if you throw them at people hard enough."/>
+  <spell name="Make Tube of Pogs" />
+  </ability>
 
 
 </skillDB>

@@ -11,5 +11,17 @@
   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
   </spell>
 
+<!-- Skill: Level 2 -->
+<spell name="Make Tube of Pogs" type="self" downtime="27" icon="skills/90skid/pogspogs32.png">
+  <description text="It's a tube full of Pogs. If you're lucky you might get a metal slammer! Neato!"/>
+  <effect type="spawn" itemname="Tube of Pogs" amount="1"/>
+  <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
+  </spell>
+<spell name="Make Pogs" type="self" icon="skills/90skid/pogspogs32.png">
+  <effect type="spawn" itemName="Pog" amount="3" percent="100" />
+  <effect type="spawn" itemName="Pog Slammer" amount="1" percent="20" />
+  <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
+  </spell>
+
 
 </spellDB>
