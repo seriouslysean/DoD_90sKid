@@ -1,7 +1,15 @@
 <spellDB>
 
 
-<!-- Spells -->
+<!-- Skill: Level 1 -->
+<spell name="Afraid of the Dark" type="adjacent" icon="skills/90skid/afraidofthedark64.png" >
+  <description text="Right in the eyes! It's lights out, dude!"/>
+  <effect type="damage" conflagratory="2" />
+  <effect type="blind" percent="100" />
+  <effect type="sleep" percent="5" />
+  <effect type="trigger" spell="Blast Effect A" />
+  <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+  </spell>
 
 
 </spellDB>
