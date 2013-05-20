@@ -10,11 +10,10 @@
    <description text="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!"/>
    </ability>
 
-<ability name="Saturday Mornings" icon="skills/90skid/90skid64.png" skill="1990" skillname="90's Kid" level="0">
-	<description text="All those years of sitting too close to the TV really paid off, you can see further and you notice weaknesses in your enemies more easily."/>
-	<primarybuff id="3" amount="2"/> <!-- Caddishness -->
-	<secondarybuff id="18" amount="2"/> <!-- Sight Raduis -->
-	<secondarybuff id="14" amount="1"/> <!-- Mana Regen -->
+<ability name="2 Cool 4 School" icon="skills/90skid/2cool4school64.png" skill="1990" level="0">
+	<description text="You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool."/>
+	<resistbuff hyperborean="-2"/>
+  <damagebuff hyperborean="2"/>
 	</ability>
 
 
