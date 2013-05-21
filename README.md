@@ -38,7 +38,10 @@ Level Six:
 -------------------------
 TBA
 
+---
+
 Potential Skills
+-------------------------
 * **Moon Shoes** (+dodge and some sort of stacking buff or teleport)
 * **Saved by the Bell** (+speed and an AoE daze)
 * **By Your Powers Combined** (+elemental damage and a random effect/spell AoE on hit or being hit (earth, fire, wind, water AoE or spawning a health potion)
