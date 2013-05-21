@@ -40,7 +40,7 @@ Upcoming Changes
 * **2 Cool 4 School** skill
 * **Are You Afraid of the Dark?** skill
 * **Pogs? Pogs!** skill
-* **Tube of Pogs* sprite
+* **Tube of Pogs** sprite
 
 ### Possible Skills:
 * **Moon Shoes** (+dodge and some sort of stacking buff or teleport)
@@ -48,9 +48,13 @@ Upcoming Changes
 * **By Your Powers Combined** (+elemental damage and a random effect/spell AoE on hit or being hit (earth, fire, wind, water AoE or spawning a health potion)
 * **Monster Trainer** (+elemental damage and a charm spell)
 * **Shell Shocked** (+defense, +block, chance to electrocute enemy when being hit)
+* **Ugh! I'm Bored!** (Switch out Pogs? Pogs! for this; Randomly spawn Pogs, Pog Slammers, Tube of Pogs, Squeezable Juice Drinks, etc)
 
 ### Possible Items:
 * **Squeezable Juice Drink** (+potions with different effect based on the flavor)
+
+### Possible Rooms:
+* **Arcade** (Smashable arcade machines, throwable tokens?)
 
 ---
 
