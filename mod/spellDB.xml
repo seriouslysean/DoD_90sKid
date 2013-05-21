@@ -2,17 +2,17 @@
 
 
 <!-- Skill: Level 1 -->
-<spell name="Afraid of the Dark" type="adjacent" icon="skills/90skid/afraidofthedark64.png" wand="0">
+<spell name="Afraid of the Dark" type="adjacent" icon="skills/90skid/afraidofthedark64.png">
   <description text="Right in the eyes! It's lights out, dude!"/>
-  <effect type="damage" conflagratory="2" />
+  <effect type="damage" conflagratory="1" />
   <effect type="blind" percent="100" />
-  <effect type="sleep" percent="5" />
+  <effect type="sleep" percent="18" />
   <effect type="trigger" spell="Blast Effect A" />
   <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
   </spell>
 
 <!-- Skill: Level 2 -->
-<spell name="Make Tube of Pogs" type="self" downtime="27" icon="skills/90skid/pogspogs32.png" wand="0">
+<spell name="Make Tube of Pogs" type="self" downtime="27" icon="skills/90skid/pogspogs32.png">
   <description text="It's a tube full of Pogs. If you're lucky you might get a metal slammer! Neato!"/>
   <effect type="spawn" itemname="Tube of Pogs" amount="1"/>
   <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
@@ -24,12 +24,46 @@
   </spell>
 
 <!-- Skill: Level 3 -->
-<spell name="I Ain't Afraid of No Ghosts!" type="self" icon="skills/90skid/goosebumps64.png" wand="0">
+<spell name="I Ain't Afraid of No Ghosts!" type="self" icon="skills/90skid/goosebumps64.png">
   <description text="Your spider-sense is tingling! Since you're on high alert, you're able to mitigate some of the spooky things happening around you."/>
   <buff useTimer="1" time="20" stacksize="3"  icon="skills/90skid/goosebumps64.png" smallicon="skills/90skid/goosebumps32.png">
     <resistbuff toxic="1" necromantic="1" acidic="1" putrefying="1" aethereal="1" existential="1" />
     </buff>
   <anim sprite="sprites/sfx/rage/rage" frames="3" framerate="50" sfx="ping" />
+  </spell>
+
+<!-- Skill: Level 4 -->
+<spell name="By Your Powers Combined!" type="target">
+   <effect type="triggerfromlist">
+      <option name="By Your Powers Combined! (Crushing)" />
+      <option name="By Your Powers Combined! (Conflagratory)" />
+      <option name="By Your Powers Combined! (Voltaic)" />
+      <option name="By Your Powers Combined! (Hyperborean)" />
+      <option name="By Your Powers Combined! (Heart)" />
+      </effect>
+  </spell>
+<spell name="By Your Powers Combined! (Crushing)" type="target">
+  <effect type="damage" crushing="5" />
+  <anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/>  
+  </spell>
+<spell name="By Your Powers Combined! (Conflagratory)" type="target">
+  <effect type="damage" conflagratory="5" />
+  <anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" sfx="flame_weak" framerate="100"  centerEffect="0"/>
+  </spell>
+<spell name="By Your Powers Combined! (Voltaic)" type="target">
+  <effect type="damage" voltaic="5" />
+  <anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="9" sfx="elec" framerate="100"  centerEffect="0"/>  
+  </spell>
+<spell name="By Your Powers Combined! (Hyperborean)" type="target">
+  <effect type="damage" hyperborean="5" />
+  <anim sprite="sprites/sfx/impact_ice/impact_ice" frames="9" sfx="magic" framerate="100"  centerEffect="0"/>  
+  </spell>
+<spell name="By Your Powers Combined! (Heart)" type="self">
+  <buff useTimer="1" time="6" stacksize="3" icon="skills/bypowerscombined64.png" smallicon="skills/bypowerscombined64.png">
+    <secondarybuff id="13" amount="10"/> <!-- hp regen -->
+    </buff>
+  <anim sprite="sprites/sfx/manafount/manafont" frames="7" sfx="white"/>
+  <description text="You have been filled with the power of heart and are currently regening health a bit faster!"/>
   </spell>
 
 
