@@ -48,6 +48,7 @@ Upcoming Changes
 * **By Your Powers Combined** (+elemental damage and a random effect/spell AoE on hit or being hit (earth, fire, wind, water AoE or spawning a health potion)
 * **Monster Trainer** (+elemental damage and a charm spell)
 * **Shell Shocked** (+defense, +block, chance to electrocute enemy when being hit)
+* **Ugh! I'm Bored!** (Switch out Pogs? Pogs! for this; Randomly spawn Pogs, Pog Slammers, Tube of Pogs, Juice Drinks, etc)
 
 ### Possible Items:
 * **Squeezable Juice Drink** (+potions with different effect based on the flavor)
