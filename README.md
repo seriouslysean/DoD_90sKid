@@ -13,7 +13,7 @@ Staying up late has given you some power over the darkness, an affinity for fire
 * +1 necromantic resistance
 * +1 aethereal resistance
 * +2 sight radius
-* 20% chance to cast "Afraid of the Dark" on hit (100% chance to cause blind, 5% chance to cause sleep)
+* 20% chance to cast "Afraid of the Dark" on hit (+2 conflagratory damage, 100% chance to cause blind, 5% chance to cause sleep)
 
 ### Level Three: Pogs? Pogs!
 Pogs! Pogs! Pogs! The wonderful collectables that are fun for all! Sadly they are now worthless but at least they hurt if you throw them at people hard enough.
@@ -36,6 +36,12 @@ TBA
 
 Upcoming Changes
 ================================
+### New Artwork:
+* **2 Cool 4 School** skill
+* **Are You Afraid of the Dark?** skill
+* **Pogs? Pogs!** skill
+* **Tube of Pogs* sprite
+
 ### Possible Skills:
 * **Moon Shoes** (+dodge and some sort of stacking buff or teleport)
 * **Saved by the Bell** (+speed and an AoE daze)
@@ -44,7 +50,7 @@ Upcoming Changes
 * **Shell Shocked** (+defense, +block, chance to electrocute enemy when being hit)
 
 ### Possible Items:
-* **SqueezIt** (+potions with different effect based on the flavor)
+* **Squeezable Juice Drink** (+potions with different effect based on the flavor)
 
 ---
 
