@@ -1,7 +1,7 @@
 Dungeons of Dredmor: 90's Kid Skill Tree
 ================================
 
-Are you a kid of the 90's? Do you remember Saturday mornings? Those were they days. By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly! This mod adds a new skill tree using Saturday morning cartoons as inspiration along with a few new items.
+Are you a kid of the 90's? Do you remember Saturday mornings? Those were they days. By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly! _This mod adds a new skill tree using Saturday morning cartoons as inspiration along with a few new items._
 
 ### Level One: 2 Cool 4 School
 You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool.
