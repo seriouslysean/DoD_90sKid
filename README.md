@@ -53,6 +53,9 @@ Upcoming Changes
 ### Possible Items:
 * **Squeezable Juice Drink** (+potions with different effect based on the flavor)
 
+### Possible Rooms:
+* **Arcade** (Smashable arcade machines, throwable tokens?)
+
 ---
 
 Changes
