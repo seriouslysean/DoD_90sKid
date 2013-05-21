@@ -18,13 +18,13 @@
   <price amount="0"/>
   <weapon crushing="2" thrown="items/90skid/thrown_pog.png"/>
   <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
-  <description text="This is a Pog. You can throw it, but it's made of cardboard and won't do very much damage."/>
+  <description text="It's a Pog!  Don't know what a Pog is? Neither does the rest of the world... at least you can throw it at people!"/>
   </item>
 <item name="Pog Slammer" iconFile="items/90skid/thrown_pog_slammer.png" level="0" type="5" special="1">
   <price amount="0"/>
   <weapon crushing="3" asphyxiative="2" thrown="items/90skid/thrown_pog_slammer.png"/>
   <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
-  <description text="This is a Pog Slammer. You can throw it and it will most certainly hurt someone since it's made of metal. How were these legal as a kid?"/>
+  <description text="It's a Pog Slammer! It's like a normal Pog but bigger, badder and made of metal! Not much use as a collectible anymore... it sure would hurt if your threw it at someone though!"/>
   </item>
 
 

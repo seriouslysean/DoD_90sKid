@@ -20,7 +20,7 @@
 
 <!-- Skill: Level 1 -->
 <ability name="Are You Afraid of the Dark?" icon="skills/90skid/afraidofthedark64.png" skill="1990" level="1">
-  <description text="Staying up late has given you some power over the darkness, an affinity for fire and the power to bore your enemies to sleep through bad storytelling."/>
+  <description text="Staying up late has given you some power over the darkness, an affinity for fire and the ability to bore your enemies to sleep through bad storytelling."/>
   <targetHitEffectBuff percentage="20" name="Afraid of the Dark" />
   <resistbuff necromantic="1" aethereal="1" />
   <secondarybuff id="18" amount="2" /> <!-- sight radius -->
@@ -28,8 +28,15 @@
 
 <!-- Skill: Level 2 -->
 <ability name="Pogs? Pogs!" icon="skills/90skid/pogspogs64.png" skill="1990" level="2">
-  <description text="Pogs! Pogs! Pogs! The wonderful collectables that are fun for all!  Sadly they are now worthless but at least they hurt if you throw them at people hard enough."/>
+  <description text="Pogs! Pogs! Pogs! The wonderful collectables that are fun for all! Sadly they are now worthless but at least they hurt if you throw them at people hard enough."/>
   <spell name="Make Tube of Pogs" />
+  </ability>
+
+<!-- Skill: Level 3 -->
+<ability name="Goosebumps" icon="skills/90skid/goosebumps64.png" skill="1990" level="3">
+  <description text="There's something strange in the neighborhood... thanks to your super sensitive skin, you're acutely aware of it!"/>
+  <playerHitEffectBuff percentage="10" name="I Ain't Afraid of No Ghosts!" />
+  <secondarybuff id="11" amount="5" /> <!-- magic resistance -->
   </ability>
 
 
