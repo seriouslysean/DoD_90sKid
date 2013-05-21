@@ -48,5 +48,5 @@ Potential Skills
 
 ---
 
-*TLDR:* This mod adds a new skill tree using Saturday morning cartoons as imspiration along with a few new items.
+*TLDR:* This mod adds a new skill tree using Saturday morning cartoons as inspiration along with a few new items.
 If you'd like to check out the source, feel free to do so at https://github.com/seriouslysean/DoD_90sKid.
