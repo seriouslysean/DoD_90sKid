@@ -1,21 +1,43 @@
 <skillDB>
 
 
+<!-- Skill: Tree -->
 <skill name="90's Kid" id="1990" type="warrior" description="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!">
-	<art icon="skills/90skid/90skid64.png"/>
-	<loadout type="armour" subtype="Traffic Cone" always="1"/>
-	</skill>
+  <art icon="skills/90skid/90skid64.png"/>
+  <loadout type="weapon" subtype="The Breakfast Club" always="1"/>
+  </skill>
 
 <ability name="90's Kid" icon="skills/90skid/90skid64.png" skill="1990" startSkill="1">
    <description text="By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly!"/>
-   </ability>
+  </ability>
 
-<ability name="Saturday Mornings" icon="skills/90skid/90skid64.png" skill="1990" skillname="90's Kid" level="0">
-	<description text="All those years of sitting too close to the TV really paid off, you can see further and you notice weaknesses in your enemies more easily."/>
-	<primarybuff id="3" amount="2"/> <!-- Caddishness -->
-	<secondarybuff id="18" amount="2"/> <!-- Sight Raduis -->
-	<secondarybuff id="14" amount="1"/> <!-- Mana Regen -->
-	</ability>
+<!-- Skill: Starting -->
+<ability name="2 Cool 4 School" icon="skills/90skid/2cool4school64.png" skill="1990" level="0">
+  <description text="You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool."/>
+  <resistbuff hyperborean="2"/>
+  <damagebuff hyperborean="2"/>
+  </ability>
+
+<!-- Skill: Level 1 -->
+<ability name="Are You Afraid of the Dark?" icon="skills/90skid/afraidofthedark64.png" skill="1990" level="1">
+  <description text="Staying up late has given you some power over the darkness, an affinity for fire and the ability to bore your enemies to sleep through bad storytelling."/>
+  <targetHitEffectBuff percentage="20" name="Afraid of the Dark" />
+  <resistbuff necromantic="1" aethereal="1" />
+  <secondarybuff id="18" amount="2" /> <!-- sight radius -->
+  </ability>
+
+<!-- Skill: Level 2 -->
+<ability name="Pogs? Pogs!" icon="skills/90skid/pogspogs64.png" skill="1990" level="2">
+  <description text="Pogs! Pogs! Pogs! The wonderful collectables that are fun for all! Sadly they are now worthless but at least they hurt if you throw them at people hard enough."/>
+  <spell name="Make Tube of Pogs" />
+  </ability>
+
+<!-- Skill: Level 3 -->
+<ability name="Goosebumps" icon="skills/90skid/goosebumps64.png" skill="1990" level="3">
+  <description text="There's something strange in the neighborhood... thanks to your super sensitive skin, you're acutely aware of it!"/>
+  <playerHitEffectBuff percentage="10" name="I Ain't Afraid of No Ghosts!" />
+  <secondarybuff id="11" amount="5" /> <!-- magic resistance -->
+  </ability>
 
 
 </skillDB>

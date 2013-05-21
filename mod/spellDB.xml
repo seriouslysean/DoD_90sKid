@@ -1,7 +1,36 @@
 <spellDB>
 
 
-<!-- Spells -->
+<!-- Skill: Level 1 -->
+<spell name="Afraid of the Dark" type="adjacent" icon="skills/90skid/afraidofthedark64.png" wand="0">
+  <description text="Right in the eyes! It's lights out, dude!"/>
+  <effect type="damage" conflagratory="2" />
+  <effect type="blind" percent="100" />
+  <effect type="sleep" percent="5" />
+  <effect type="trigger" spell="Blast Effect A" />
+  <anim sprite="sprites/sfx/corpse_hit_mini/corpse_hit_mini" frames="4" framerate="100" sfx="impact" centerEffect="0"/>
+  </spell>
+
+<!-- Skill: Level 2 -->
+<spell name="Make Tube of Pogs" type="self" downtime="27" icon="skills/90skid/pogspogs32.png" wand="0">
+  <description text="It's a tube full of Pogs. If you're lucky you might get a metal slammer! Neato!"/>
+  <effect type="spawn" itemname="Tube of Pogs" amount="1"/>
+  <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
+  </spell>
+<spell name="Make Pogs" type="self" icon="skills/90skid/pogspogs32.png" wand="0">
+  <effect type="spawn" itemName="Pog" amount="3" percent="100" />
+  <effect type="spawn" itemName="Pog Slammer" amount="1" percent="20" />
+  <anim sprite="sprites/sfx/psionic_generic/psionic_generic" frames="5" framerate="100" centerEffect="1"/>
+  </spell>
+
+<!-- Skill: Level 3 -->
+<spell name="I Ain't Afraid of No Ghosts!" type="self" icon="skills/90skid/goosebumps64.png" wand="0">
+  <description text="Your spider-sense is tingling! Since you're on high alert, you're able to mitigate some of the spooky things happening around you."/>
+  <buff useTimer="1" time="20" stacksize="3"  icon="skills/90skid/goosebumps64.png" smallicon="skills/90skid/goosebumps32.png">
+    <resistbuff toxic="1" necromantic="1" acidic="1" putrefying="1" aethereal="1" existential="1" />
+    </buff>
+  <anim sprite="sprites/sfx/rage/rage" frames="3" framerate="50" sfx="ping" />
+  </spell>
 
 
 </spellDB>
