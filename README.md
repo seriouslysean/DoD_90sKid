@@ -36,9 +36,15 @@ TBA
 
 Upcoming Changes
 ================================
-* Possible Skill: **Moon Shoes** (+dodge and some sort of stacking buff or teleport)
-* Possible Skill: **Saved by the Bell** (+speed and an AoE daze)
-* Possible Skill: **By Your Powers Combined** (+elemental damage and a random effect/spell AoE on hit or being hit (earth, fire, wind, water AoE or spawning a health potion)
+### Possible Skills:
+* **Moon Shoes** (+dodge and some sort of stacking buff or teleport)
+* **Saved by the Bell** (+speed and an AoE daze)
+* **By Your Powers Combined** (+elemental damage and a random effect/spell AoE on hit or being hit (earth, fire, wind, water AoE or spawning a health potion)
+* **Monster Trainer** (+elemental damage and a charm spell)
+* **Shell Shocked** (+defense, +block, chance to electrocute enemy when being hit)
+
+### Possible Items:
+* **SqueezIt** (+potions with different effect based on the flavor)
 
 ---
 
