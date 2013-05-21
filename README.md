@@ -40,7 +40,7 @@ Upcoming Changes
 * **2 Cool 4 School** skill
 * **Are You Afraid of the Dark?** skill
 * **Pogs? Pogs!** skill
-* **Tube of Pogs* sprite
+* **Tube of Pogs** sprite
 
 ### Possible Skills:
 * **Moon Shoes** (+dodge and some sort of stacking buff or teleport)
