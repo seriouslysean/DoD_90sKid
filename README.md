@@ -53,3 +53,6 @@ Changes
 
 ### 0.1.0:
 * Initial Release
+
+### 0.1.1
+* Added new *The Breakfast Club* sprite
