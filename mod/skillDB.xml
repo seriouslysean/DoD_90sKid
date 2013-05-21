@@ -22,15 +22,17 @@
 <!-- Skill: Level 1 -->
 <ability name="Are You Afraid of the Dark?" icon="skills/90skid/afraidofthedark64.png" skill="1990" level="1">
   <description text="Staying up late has given you some power over the darkness, an affinity for fire and the ability to bore your enemies to sleep through bad storytelling."/>
-  <targetHitEffectBuff percentage="21" name="Afraid of the Dark" />
+  <targetHitEffectBuff percentage="10" name="Afraid of the Dark" />
   <resistbuff necromantic="1" aethereal="1" />
-  <secondarybuff id="18" amount="2" /> <!-- sight radius -->
+  <secondarybuff id="17" amount="1" /> <!-- trap sense radius -->
+  <secondarybuff id="18" amount="1" /> <!-- sight radius -->
   </ability>
 
 <!-- Skill: Level 2 -->
 <ability name="Pogs? Pogs!" icon="skills/90skid/pogspogs64.png" skill="1990" level="2">
   <description text="Pogs! Pogs! Pogs! The wonderful collectables that are fun for all! Sadly they are now worthless but at least they hurt if you throw them at people hard enough."/>
   <spell name="Make Tube of Pogs" />
+  <secondarybuff id="4" amount="1" /> <!-- critical hit -->
   </ability>
 
 <!-- Skill: Level 3 -->
@@ -45,7 +47,7 @@
   <description text="Crushing! Conflagratory! Voltaic! Hyperborean! Heart! By your powers combined, I am Captain Diggle! ...Wait, what?"/>
   <playerHitEffectBuff percentage="21" name="By Your Powers Combined!" />
   <resistbuff crushing="1" conflagratory="1" voltaic="1" hyperborean="1" />
-  <secondarybuff id="0" amount="5" /> <!-- health -->
+  <secondarybuff id="0" amount="2" /> <!-- health -->
   <secondarybuff id="13" amount="1" /> <!-- health regen -->
   </ability>
 

@@ -4,7 +4,7 @@
 <!-- Skill: Level 1 -->
 <spell name="Afraid of the Dark" type="adjacent" icon="skills/90skid/afraidofthedark64.png">
   <description text="Right in the eyes! It's lights out, dude!"/>
-  <effect type="damage" conflagratory="1" />
+  <effect type="damage" conflagratory="2" />
   <effect type="blind" percent="100" />
   <effect type="sleep" percent="18" />
   <effect type="trigger" spell="Blast Effect A" />
@@ -27,7 +27,7 @@
 <spell name="I Ain't Afraid of No Ghosts!" type="self" icon="skills/90skid/goosebumps64.png">
   <description text="Your spider-sense is tingling! Since you're on high alert, you're able to mitigate some of the spooky things happening around you."/>
   <buff useTimer="1" time="20" stacksize="3"  icon="skills/90skid/goosebumps64.png" smallicon="skills/90skid/goosebumps32.png">
-    <resistbuff toxic="1" necromantic="1" acidic="1" putrefying="1" aethereal="1" existential="1" />
+    <resistbuff necromantic="1" aethereal="1" />
     </buff>
   <anim sprite="sprites/sfx/rage/rage" frames="3" framerate="50" sfx="ping" />
   </spell>
