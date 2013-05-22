@@ -44,25 +44,23 @@
   </spell>
 <spell name="By Your Powers Combined! (Crushing)" type="target">
   <effect type="damage" crushing="5" />
-  <anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/>  
+  <anim sprite="sprites/sfx/rockburst/rockburst" frames="9" sfx="earth" framerate="100"  centerEffect="0"/>
   </spell>
 <spell name="By Your Powers Combined! (Conflagratory)" type="target">
   <effect type="damage" conflagratory="5" />
-  <anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" sfx="flame_weak" framerate="100"  centerEffect="0"/>
+  <anim sprite="sprites/sfx/combust_hit/combust_hit" frames="9" framerate="80" sfx="flame_weak" centerEffect="1"/>
   </spell>
 <spell name="By Your Powers Combined! (Voltaic)" type="target">
   <effect type="damage" voltaic="5" />
-  <anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="9" sfx="elec" framerate="100"  centerEffect="0"/>  
+  <anim sprite="sprites/sfx/voltaic_hit/voltaic_hit" frames="8" framerate="90" sfx="elec" /> 
   </spell>
 <spell name="By Your Powers Combined! (Hyperborean)" type="target">
   <effect type="damage" hyperborean="5" />
-  <anim sprite="sprites/sfx/impact_ice/impact_ice" frames="9" sfx="magic" framerate="100"  centerEffect="0"/>  
+  <anim sprite="sprites/sfx/impact_ice/impact_ice" frames="6" framerate="90" sfx="magic" />
   </spell>
 <spell name="By Your Powers Combined! (Heart)" type="self">
-  <buff useTimer="1" time="6" stacksize="3" icon="skills/bypowerscombined64.png" smallicon="skills/bypowerscombined64.png">
-    <secondarybuff id="13" amount="10"/> <!-- hp regen -->
-    </buff>
-  <anim sprite="sprites/sfx/manafount/manafont" frames="7" sfx="white"/>
+  <effect type="heal" amount="10" />
+  <anim sprite="sprites/sfx/manafount/manafont" frames="7" sfx="choir"/>
   <description text="You have been filled with the power of heart and are currently regening health a bit faster!"/>
   </spell>
 
