@@ -29,6 +29,7 @@ There's something strange in the neighborhood... thanks to your super sensitive 
 * Each stack of "I Ain't Afraid of No Ghosts" provides +1 toxic, necromantic, acidic, putrefying, aethereal and existential resistance.
 
 ### Level Five: By Your Powers Combined!
+Crushing! Conflagratory! Voltaic! Hyperborean! Heart! By your powers combined, I am Captain Diggle! ...Wait, what?
 * 21% chance on being hit to cast "By Your Powers Combined!"
 * By Your Powers Combined! will cast one of 5 spells randomly:
 	* By Your Powers Combined! (Crushing): +5 crushing damage
