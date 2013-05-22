@@ -71,6 +71,10 @@ Upcoming Changes
 Changes
 ===========
 
+### 0.2.1:
+* Fixed a crash related to missing animation files
+* Skill: By Your Powers Combined! Proc: Heart changed to +10 health
+
 ### 0.2.0:
 * Item: 90's Kid now also start with Moon Shoes (+1 trap sign radius, +1 dodge)
 * Item: The Breakfast Club has a new sprite
