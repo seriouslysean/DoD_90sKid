@@ -36,7 +36,7 @@ Crushing! Conflagratory! Voltaic! Hyperborean! Heart! By your powers combined, I
 	* By Your Powers Combined! (Conflagratory): +5 conflagratory damage
 	* By Your Powers Combined! (Voltaic): +5 voltaic damage
 	* By Your Powers Combined! (Hyperborean): +5 hyperborean damage
-	* By Your Powers Combined! (Heart): +10 health regen for 6 turns, stackable up to 3x
+	* By Your Powers Combined! (Heart): +10 heal
 * +2 health
 * +1 health regen
 
@@ -73,7 +73,7 @@ Changes
 
 ### 0.2.1:
 * Fixed a crash related to missing animation files
-* Skill: By Your Powers Combined! Proc: Heart changed to +10 health
+* Skill: By Your Powers Combined! Proc: Heart changed to a +10 heal
 
 ### 0.2.0:
 * Item: 90's Kid now also start with Moon Shoes (+1 trap sign radius, +1 dodge)
