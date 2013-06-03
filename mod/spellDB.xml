@@ -64,5 +64,17 @@
   <description text="You have been filled with the power of heart and are currently regening health a bit faster!"/>
   </spell>
 
+<!-- SKill: Level 5 -->
+<spell name="Turtle Power!" type="self" icon="skills/90skid/herohalfshell32.png">
+  <buff useTimer="0" brittle="9" stacksize="1" allowstacking="0" icon="skills/90skid/herohalfshell64.png" smallicon="skills/90skid/herohalfshell32.png">
+    <primarybuff id="4" amount="5"/> <!-- Stubborness -->
+    <primarybuff id="2" amount="-5"/> <!-- Nimbleness -->
+    <secondarybuff id="10" amount="5"/> <!-- armour -->
+    <secondarybuff id="13" amount="5"/> <!-- hp regen -->
+    </buff>
+  <anim sprite="sprites/sfx/glintA/glintA" frames="5" framerate="60" centerEffect="0" sfx="metal_drop" />
+  <description text="You have been startled and clenched up your back muscles as a result. It's a little harder to move but you sure feel safe!" />
+  </spell>
+
 
 </spellDB>

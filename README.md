@@ -41,8 +41,17 @@ Crushing! Conflagratory! Voltaic! Hyperborean! Heart! By your powers combined, I
 * +1 health regen
 
 
-### Level Six:
-TBA
+### Level Six: Hero in a Half Shell
+Your mother always told you not to slouch while watching cartoons and for whatever reason, you actually listened. Due to your incredibly good posture, your back muscles have been meticulously trained and are as hard as a rock providing you with extra protection! It's almost as if you have your own personal turtle shell... Turtle power!
+* 21% chance on being hit to cast "Turtle Power!"
+* Turtle Power! provides the following
+  * +5 stubborness
+  * -5 nimblness
+  * +5 armor
+  * +5 hp regen
+* +5 stubborness
+* +10 armor
+* +5 piercing resistance
 
 ---
 
@@ -55,9 +64,6 @@ Upcoming Changes
 * **Tube of Pogs** sprite
 
 ### Possible Skills:
-* **Saved by the Bell** (+speed and an AoE daze)
-* **Monster Trainer** (+elemental damage and a charm spell)
-* **Shell Shocked** (+defense, +block, chance to electrocute enemy when being hit)
 * **Ugh! I'm Bored!** (Switch out Pogs? Pogs! for this; Randomly spawn Pogs, Pog Slammers, Tube of Pogs, Squeezable Juice Drinks, etc)
 
 ### Possible Items:
@@ -70,6 +76,11 @@ Upcoming Changes
 
 Changes
 ===========
+
+### 0.3.0
+* Skill: Added Hero in a Half Shell as the 6th level skill (+5 to stubborness, +10 to armor, +5 resistance to piercing, 21% chance to proc Turtle Power! when being hit)
+* Skill: Hero in a Half Shell Proc: Turtle Power! (+5 stubborness, -5 nimbleness, +5 armor, +5 hp regen)
+* Skill: Goosebumps now has a 100% chance to proc I Ain't Afraid of No Ghosts!
 
 ### 0.2.1:
 * Fixed a crash related to missing animation files
