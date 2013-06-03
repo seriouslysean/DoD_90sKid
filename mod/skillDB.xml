@@ -38,7 +38,7 @@
 <!-- Skill: Level 3 -->
 <ability name="Goosebumps" icon="skills/90skid/goosebumps64.png" skill="1990" level="3">
   <description text="There's something strange in the neighborhood... thanks to your super sensitive skin, you're acutely aware of it!"/>
-  <playerHitEffectBuff percentage="21" name="I Ain't Afraid of No Ghosts!" />
+  <playerHitEffectBuff percentage="100" name="I Ain't Afraid of No Ghosts!" />
   <secondarybuff id="11" amount="5" /> <!-- magic resistance -->
   </ability>
 
@@ -49,6 +49,15 @@
   <resistbuff crushing="1" conflagratory="1" voltaic="1" hyperborean="1" />
   <secondarybuff id="0" amount="2" /> <!-- health -->
   <secondarybuff id="13" amount="1" /> <!-- health regen -->
+  </ability>
+
+<!-- Skill: Level 5 -->
+<ability name="Hero in a Half Shell" icon="skills/90skid/herohalfshell64.png" skill="1990" level="5">
+  <description text="Your mother always told you not to slouch while watching cartoons and for whatever reason, you actually listened. Due to your incredibly good posture, your back muscles have been meticulously trained and are as hard as a rock providing you with extra protection! It's almost as if you have your own personal turtle shell... Turtle power!"/>
+  <primarybuff id="4" amount="5"/> <!-- Stubborness -->
+  <secondarybuff id="10" amount="10"/> <!-- armour -->
+  <resistbuff piercing="5"/>
+  <playerHitEffectBuff percentage="21" name="Turtle Power!"/>
   </ability>
 
 
