@@ -71,39 +71,3 @@ Upcoming Changes
 
 ### Possible Rooms:
 * **Arcade** (Smashable arcade machines, throwable tokens?)
-
----
-
-Changes
-===========
-
-### 0.3.0
-* Skill: Added Hero in a Half Shell as the 6th level skill (+5 to stubborness, +10 to armor, +5 resistance to piercing, 21% chance to proc Turtle Power! when being hit)
-* Skill: Hero in a Half Shell Proc: Turtle Power! (+5 stubborness, -5 nimbleness, +5 armor, +5 hp regen)
-* Skill: Goosebumps now has a 100% chance to proc I Ain't Afraid of No Ghosts!
-
-### 0.2.1:
-* Fixed a crash related to missing animation files
-* Skill: By Your Powers Combined! Proc: Heart changed to a +10 heal
-
-### 0.2.0:
-* Item: 90's Kid now also start with Moon Shoes (+1 trap sign radius, +1 dodge)
-* Item: The Breakfast Club has a new sprite
-* Item: Tube of Pogs can only be spawned by the skill Pogs? Pogs! now
-* Skill: Pogs? Pogs! now adds +1 to critical hit
-* Skill: Are You Afraid of the Dark? now has a 21% chance to proc Afraid of the Dark (+2 conflagratory damage, 100% chance to cause blind and 18% chance to cause sleep)
-* Skill: Are You Afraid of the Dark? adds 1 trap sense radius (up from 0)
-* Skill: Are You Afraid of the Dark? adds 1 sight radius (down from 2)
-* Skill: Goosebumps now has a 10% chance to proc I Ain't Afraid of No Ghosts! (+1 resistance to necromantic and aetherial damage, stackable up to 3x)
-* Skill: Added By Your Powers Combined! as the 5th level skill (+1 resistance to crushing, conflagratory, voltaic and hyperborean damage; +2 hp, +1 hp regen; 21% chance to proc By Your Powers Combined!)
-* Skill: By Your Powers Combined! Proc: Crushing (+5 crushing damage)
-* Skill: By Your Powers Combined! Proc: Conflagratory (+5 conflagratory damage)
-* Skill: By Your Powers Combined! Proc: Voltaic (+5 voltaic damage)
-* Skill: By Your Powers Combined! Proc: Hyperborean (+5 hyperborean damage)
-* Skill: By Your Powers Combined! Proc: Heart (+10 health regen for 6 turns, stackable up to 3x)
-
-### 0.1.1
-* Added new *The Breakfast Club* sprite
-
-### 0.1.0:
-* Initial Release
