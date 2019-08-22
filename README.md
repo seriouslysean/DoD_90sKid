@@ -4,11 +4,17 @@ Dungeons of Dredmor: 90's Kid Skill Tree
 Are you a kid of the 90's? Do you remember Saturday mornings? Those were they days. By harnessing the power of Saturday morning cartoons, you lay the smack down on your enemies. Gnarly! _This mod adds a new skill tree using Saturday morning cartoons as inspiration along with a few new items._
 
 ### Level One: 2 Cool 4 School
+
+![2 Cool 4 School](skills/90skid/2cool4school64.png)
+
 You never saw the point in going to school... It didn't help that you locked yourself in the refridgerator to learn the arts of staying cool.
 * +2 hyperborean damage
 * +2 hyperborean resistance
 
-###Level Two: Are You Afraid of the Dark?
+### Level Two: Are You Afraid of the Dark?
+
+![Are You Afraid of the Dark?](skills/90skid/afraidofthedark64.png)
+
 Staying up late has given you some power over the darkness, an affinity for fire and the ability to bore your enemies to sleep through bad storytelling.
 * +1 necromantic resistance
 * +1 aethereal resistance
@@ -17,6 +23,9 @@ Staying up late has given you some power over the darkness, an affinity for fire
 * 10% chance to cast "Afraid of the Dark" on hit (+2 conflagratory damage, 100% chance to cause blind, 18% chance to cause sleep)
 
 ### Level Three: Pogs? Pogs!
+
+![Pogs? Pogs!](skills/90skid/pogspogs64.png)
+
 Pogs! Pogs! Pogs! The wonderful collectables that are fun for all! Sadly they are now worthless but at least they hurt if you throw them at people hard enough.
 * Summon a Tube of Pogs on a 27 turn cooldown (100% chance for 3 Pogs, 20% chance for 1 Pog Slammer)
 * Pogs are a throwing weapon that cause 2 crushing damage
@@ -24,11 +33,17 @@ Pogs! Pogs! Pogs! The wonderful collectables that are fun for all! Sadly they ar
 * +1 critical hit
 
 ### Level Four: Goosebumps
+
+![Goosebumps](skills/90skid/goosebumps64.png)
+
 There's something strange in the neighborhood... thanks to your super sensitive skin, you're acutely aware of it!
 * 21% chance on being hit to cast "I Ain't Afraid of No Ghosts" for 20 turns that stacks up to 3 times.
 * Each stack of "I Ain't Afraid of No Ghosts" provides +1 toxic, necromantic, acidic, putrefying, aethereal and existential resistance.
 
 ### Level Five: By Your Powers Combined!
+
+![By Your Powers Combined!](skills/90skid/bypowerscombined64.png)
+
 Crushing! Conflagratory! Voltaic! Hyperborean! Heart! By your powers combined, I am Captain Diggle! ...Wait, what?
 * 21% chance on being hit to cast "By Your Powers Combined!"
 * By Your Powers Combined! will cast one of 5 spells randomly:
@@ -42,6 +57,9 @@ Crushing! Conflagratory! Voltaic! Hyperborean! Heart! By your powers combined, I
 
 
 ### Level Six: Hero in a Half Shell
+
+![Hero in a Half Shell](skills/90skid/herohalfshell64.png)
+
 Your mother always told you not to slouch while watching cartoons and for whatever reason, you actually listened. Due to your incredibly good posture, your back muscles have been meticulously trained and are as hard as a rock providing you with extra protection! It's almost as if you have your own personal turtle shell... Turtle power!
 * 21% chance on being hit to cast "Turtle Power!"
 * Turtle Power! provides the following
